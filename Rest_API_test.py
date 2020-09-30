@@ -16,7 +16,6 @@ class TestRepo(unittest.TestCase):
     def test_repo_list(self):
         repo = [value for value in repo_list("poojarkpatel")]
         result = ['Repo: Banking-System  and Number of commits: 13',
-                  'Repo: GitHubRestAPI  and Number of commits: 1',
                   'Repo: helloworld  and Number of commits: 6',
                   'Repo: Sentiment_Analyzer  and Number of commits: 2',
                   'Repo: Smart_IDcard  and Number of commits: 2',
