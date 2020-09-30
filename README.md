@@ -1,8 +1,1 @@
-language: python
-python:
-  - "3.5"
-install:
-  - pip install requests
-# command to run tests
-script:
-  - <YOU PUT YOUR COMMAND HERE>
+
