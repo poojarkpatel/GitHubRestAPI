@@ -29,7 +29,6 @@ def repo_list(user_id):
 def get_user_id():
     """ get the git user ID"""
     user_id = input("Enter your user id: ")
-    repo_list(user_id)
     for item in repo_list(user_id):
         print(item)
 

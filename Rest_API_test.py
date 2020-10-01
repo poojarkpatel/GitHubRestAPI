@@ -21,6 +21,7 @@ class TestRepo(unittest.TestCase):
                   'Repo: Mocks and Number of commits: 10',
                   'Repo: Project1 and Number of commits: 2',
                   'Repo: richkempinski.github.io and Number of commits: 9',
+                  'Repo: threads-of-life and Number of commits: 1',
                   'Repo: try_nbdev and Number of commits: 2',
                   'Repo: try_nbdev2 and Number of commits: 5']
         self.assertEqual(repo, result)
