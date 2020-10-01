@@ -26,10 +26,10 @@ def repo_list(user_id):
         yield "Repo: {} and Number of commits: {}".format(value["name"], commit_count)
 
 
-def get_user_id():
-    """ get the git user ID"""
-    user_id = input("Enter your user id: ")
-    for item in repo_list(user_id):
-        print(item)
+# def get_user_id():
+#     """ get the git user ID"""
+#     user_id = input("Enter your user id: ")
+#     for item in repo_list(user_id):
+#         print(item)
 
-get_user_id()
+# get_user_id()
