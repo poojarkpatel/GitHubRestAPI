@@ -23,7 +23,7 @@ def repo_list(user_id):
         for commit in commits:
             if commit in commits:
                 commit_count += 1
-        yield "Repo: {}  and Number of commits: {}".format(value["name"], commit_count)
+        yield "Repo: {} and Number of commits: {}".format(value["name"], commit_count)
 
 
 def get_user_id():

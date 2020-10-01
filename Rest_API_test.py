@@ -14,17 +14,15 @@ from Rest_API import repo_list
 class TestRepo(unittest.TestCase):
     """Test for the repo_list function"""
     def test_repo_list(self):
-        repo = [value for value in repo_list("poojarkpatel")]
-        result = ['Repo: Banking-System  and Number of commits: 13',
-                  'Repo: helloworld  and Number of commits: 6',
-                  'Repo: Sentiment_Analyzer  and Number of commits: 2',
-                  'Repo: Smart_IDcard  and Number of commits: 2',
-                  'Repo: Smart_Id_Card  and Number of commits: 2',
-                  'Repo: SSW555_GEDCOM_Analyzer  and Number of commits: 4',
-                  'Repo: Student_Repository  and Number of commits: 30',
-                  'Repo: Testing_Triangle_Classification  and Number of commits: 2',
-                  "Repo: Triangle567  and Number of commits: 8"
-                  ]
+        repo = [value for value in repo_list("richkempinski")]
+        result = ['Repo: csp and Number of commits: 2',
+                  'Repo: hellogitworld and Number of commits: 30',
+                  'Repo: helloworld and Number of commits: 6',
+                  'Repo: Mocks and Number of commits: 10',
+                  'Repo: Project1 and Number of commits: 2',
+                  'Repo: richkempinski.github.io and Number of commits: 9',
+                  'Repo: try_nbdev and Number of commits: 2',
+                  'Repo: try_nbdev2 and Number of commits: 5']
         self.assertEqual(repo, result)
 
 
