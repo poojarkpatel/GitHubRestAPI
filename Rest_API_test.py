@@ -8,12 +8,13 @@ This file is a test for the Rest_API file.
 
 """
 import unittest
+from unittest import mock
 from Rest_API import repo_list
 
-
+@mock.patch('urllib.request.urlopen')
 class TestRepo(unittest.TestCase):
     """Test for the repo_list function"""
-    def test_repo_list(self):
+    def test_repo_list(self, other):
         repo = [value for value in repo_list("richkempinski")]
         result = ['Repo: csp and Number of commits: 2',
                   'Repo: hellogitworld and Number of commits: 30',
